@@ -1,12 +1,8 @@
-Ansible-Role Vector for CentOS 7
+Ansible-Role Vector 
 =========
 
-Role install Vector on CentOS 7 
+Role install Vector on CentOS and Ubuntu 
 
-Requirements
-------------
-
-Only YUM installs
 
 Role Variables
 --------------
@@ -16,10 +12,6 @@ Available variables `defaults/main.yml` and `vars/main.yml`
   vector_version: 0.21.1
   vector_config_dir: "{{ ansible_user_dir }}/vector_config"
 
-Dependencies
-------------
-
-None.
 
 Example Playbook
 ----------------
