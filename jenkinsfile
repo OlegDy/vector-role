@@ -1,0 +1,12 @@
+pipeline {
+    agent {
+        label 'linux'
+    }
+    stages {
+        stage('light test role') {
+            steps {
+                sh 'molecule test -s centos7'
+            }
+        }
+    }
+}
